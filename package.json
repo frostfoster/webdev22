@@ -1,0 +1,29 @@
+{
+  "name": "030520",
+  "version": "1.0.0",
+  "description": "## Part 1: Setting up NodeJS environment ```bash > npm init -y > npm install express ejs > npm install nodemon -g > nodemon index.js ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbatuic/oauth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbatuic/oauth/issues"
+  },
+  "homepage": "https://github.com/cbatuic/oauth#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "path": "^0.12.7",
+    "pg": "^8.0.0"
+  }
+}
